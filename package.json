@@ -1,0 +1,22 @@
+{
+  "name": "eva-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/app"
+  },
+  "keywords": [],
+  "author": "Utku KOCA",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.0",
+    "express": "^4.17.2",
+    "http-status-codes": "^2.2.0",
+    "joi": "^17.5.0",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
