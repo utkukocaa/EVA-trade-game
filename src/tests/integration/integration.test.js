@@ -21,7 +21,7 @@ describe("POST /api/v1/users/buy/:userId", () => {
 
     describe("check share is registered", () => {
       test("should response Bad Request with 400 status code", async () => {
-        const existedUserId = "61f061a267584220fab2631c";
+        const existedUserId = "61f108935caa4fc6113915f5";
         const randomShare = "XXX";
         const response = await request(app)
           .post(`/api/v1/users/buy/${existedUserId}`)
@@ -38,8 +38,8 @@ describe("POST /api/v1/users/buy/:userId", () => {
 describe("POST /api/v1/users/sell/:userId", () => {
   describe("check share is sufficient", () => {
     test("should response Bad Request with 400 status code", async () => {
-      const existedUserId = "61f061a267584220fab2631c";
-      const existedShare = "UUU";
+      const existedUserId = "61f108935caa4fc6113915f5";
+      const existedShare = "AAA";
       const response = await request(app)
         .post(`/api/v1/users/sell/${existedUserId}`)
         .send({
@@ -49,8 +49,8 @@ describe("POST /api/v1/users/sell/:userId", () => {
       expect(response.statusCode).toEqual(400);
     });
     test("should response successful with 201 status code", async () => {
-      const existedUserId = "61f061a267584220fab2631c";
-      const existedShare = "UUU";
+      const existedUserId = "61f108935caa4fc6113915f5";
+      const existedShare = "AAA";
       const response = await request(app)
         .post(`/api/v1/users/sell/${existedUserId}`)
         .send({
