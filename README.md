@@ -29,8 +29,11 @@ In order to run tests
 ## ENDPOINTS
 
 **POST /api/v1/users/register**
+
 **POST /api/v1/share/add**
+
 **POST /api/v1/users/buy/:userId**
+
 **POST /api/v1/users/sell/:userId**
 
 ## RESPONSES
