@@ -164,16 +164,4 @@ In order to run tests
 
 -AAX
 
-<div class="postman-run-button"
-data-postman-action="collection/fork"
-data-postman-var-1="8797498-b0fcbd3d-51bb-4a53-83ef-c6381e010c88"
-data-postman-collection-url="entityId=8797498-b0fcbd3d-51bb-4a53-83ef-c6381e010c88&entityType=collection&workspaceId=984524ce-7cde-4a85-9b24-5b6dcdd1cf93"></div>
-<script type="text/javascript">
-  (function (p,o,s,t,m,a,n) {
-    !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
-    !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
-      (n = o.createElement("script")),
-      (n.id = s+t), (n.async = 1), (n.src = m), n
-    ));
-  }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
-</script>
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/8797498-b0fcbd3d-51bb-4a53-83ef-c6381e010c88?action=collection%2Ffork&collection-url=entityId%3D8797498-b0fcbd3d-51bb-4a53-83ef-c6381e010c88%26entityType%3Dcollection%26workspaceId%3D984524ce-7cde-4a85-9b24-5b6dcdd1cf93)
